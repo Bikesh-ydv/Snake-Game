@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div>
+            <div class="scores">
+               <h1 id="score">000</h1>
+               <h1 id="highScore">000</h1>
+             </div>
+             <div class="game-border1">
+                <div class="game-border2">
+                    <div class="game-border3">
+                        <div id="gameBoard"></div>
+                    </div>
+                </div>
+             </div>
+            </div>
+        </div>
+        <h1 id="gameDescription">Press spacebar to start.</h1>
+        <img id="logo" src="snake-game-ai-gen.png" alt="snake-logo">
+  <footer>
+    <div class="controlButtons">
+        <div>
+            <button id="left" onclick="mydirleft()">left</button>
+            <button id="up" onclick="mydirup()">up</button>
+            <button id="down" onclick="mydirdown()">down</button>
+           <button id="right" onclick="mydirright()">right</button>
+        </div>
+        <div >
+            <button id="start" onclick="mydirstart()">spacebar</button>
+        </div>
+    </div>
+  </footer>
+  
+    <script src="app.js"></script>
+</body>
+</html>
