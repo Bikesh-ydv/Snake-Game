@@ -14,3 +14,7 @@ A classic Snake Game built using **HTML**, **CSS**, and **JavaScript**. Control 
 - HTML
 - CSS
 - JavaScript (Canvas )
+
+- ## 🚀 Live Demo
+
+[Play the Snake Game Here](https://bikesh-ydv.github.io/Snake-Game/) 
